@@ -11,9 +11,10 @@ body {
 }
 
 #attract {
-	width: 100%;
+	/* width: 100%; */
 	background-color: gray;
-	margin: 0;
+	/* margin: 0; */
+	transform: rotate(-20deg);
 
 }
 h1 {
