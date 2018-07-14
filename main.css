@@ -6,23 +6,23 @@
 }
 
 body {
-	background-color: paleturquoise;
+	background-color: rgb(200, 228, 228);
 	margin: 0;
 }
 
 #attract {
 	/* width: 100%; */
-	background-color: gray;
+	/* background-color: gray; */
 	/* margin: 0; */
-	transform: rotate(-20deg);
-
+	min-height: 30em;
 }
 h1 {
 	font-size: 6em;
 	color: white;
 	margin: 0;
 	padding: 0.5em;
-	background-color: teal;
+	background-color: rgb(85, 250, 168);
+	transform: rotate(-20deg) translatey(-0.8em);
 }
 
 h2 {
@@ -30,6 +30,8 @@ h2 {
 	color: white;
 	margin: 0;
 	padding: 0.5em;
+	background-color: rgb(241, 220, 181);
+	transform: rotate(-20deg) translatey(-0.8em);
 }
 
 .flex-container {
