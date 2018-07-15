@@ -14,7 +14,9 @@ body {
 	/* width: 100%; */
 	/* background-color: gray; */
 	/* margin: 0; */
-	min-height: 30em;
+	/* min-height: 30em; */
+	position: absolute;
+	width: 66.6vw;
 }
 h1 {
 	font-size: 6em;
@@ -22,7 +24,8 @@ h1 {
 	margin: 0;
 	padding: 0.5em;
 	background-color: rgb(85, 250, 168);
-	transform: rotate(-20deg) translatey(-0.8em);
+	transform: rotate(0deg) translatey(0);
+	mix-blend-mode: hard-light;
 }
 
 h2 {
@@ -30,35 +33,29 @@ h2 {
 	color: white;
 	margin: 0;
 	padding: 0.5em;
-	background-color: rgb(241, 220, 181);
-	transform: rotate(-20deg) translatey(-0.8em);
+	background-color: rgb(88, 255, 227);
+	transform: rotate(0deg) translatey(0);
+	mix-blend-mode: exclusion;
 }
 
 .flex-container {
-	/* width: 100%; */
-	/* padding: 0; */
-	/* margin: 0; */
-	/* height: 70vh; */
-	background-color: blue;
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	/* flex-direction: column; */
 }
 
 .item  {
-	/* margin: 5px; */
-	/* padding: 0; */
-	width: 33vw;
-	height: 33vh;
-	max-width: 500px;
-	max-height: 500px;
-	/* max-height: 600px; */
-	/* object-fit: contain; */
-	background-color: rgba(205,200,77,0.5);
-	border: 1px solid pink;
+	width: 33.3%;
+	background-color: rgba(205, 77, 177, 0.5);
+	/* border: 0.1px solid pink; */
 }
 
-.item img {
-	min-width: 100%;
-    min-height: 100%;
+.item img{
+	width: 100%;
+	height: 100%;
+}
+
+.item video{
+	width: 100%;
+	height: 100%;
 }
