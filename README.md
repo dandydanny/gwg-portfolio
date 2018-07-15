@@ -2,7 +2,7 @@
 Grow-with-Google Portfolio
 
 
-![image](https://github.com/dandydanny/gwg-portfolio/blob/master/favicon.png)
+![image](https://github.com/dandydanny/gwg-portfolio/blob/master/media/favicon.png)
 A handy starting point for Github repo readme's
 
 ### What?
