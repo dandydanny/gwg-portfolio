@@ -38,7 +38,7 @@ body {
 	width: 100px;
 }
 
-h1 {
+#attract-overlay h1 {
 	font-size: 10vw;
 	color: white;
 	margin: 0;
@@ -95,7 +95,7 @@ footer p {
 /* Small screen */
 @media screen and (max-width: 600px) {
 	#navbar {
-		display: flex;
+		display: block;
 		
 		background: lightgreen;
 		/* min-height: 1em; */
@@ -118,6 +118,10 @@ footer p {
 	#navbar hamburger {
 		display: block;
 	}
+
+	.logo {
+		display: none;
+	}
 }
 
 
@@ -130,4 +134,8 @@ footer p {
 	#navbar hamburger {
 		display: none;
 	}
+}
+
+.hidden {
+	display: none;
 }
