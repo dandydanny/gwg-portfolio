@@ -1,35 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Daniel W. Lu - Front End Developer</title>
+	<title>Daniel W. Lu</title>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width:device-width, initial-scale=1.0">
+	<meta name="viewport" content="initial-scale=1.0">
 	<link href="css/main.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
 <body>
 	<div id="navbar">
-		<h1 id="hamburger">🍔</h1>
-		<div id="links" class="hidden">
-		<ul>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Works</a></li>
-			<li><a href="#">Contacts</a></li>
-		</ul>
-		</div>
-	</div>
-	<div id="attract-overlay">
-		<img src="media/favicon.png" class="logo">
-		<h1>Daniel W. Lu</h1>
-		<h2>Web Developer</h2>
-		<p>Have a look around.</p>
-	</div>
+		<a href="#" class="name">Daniel W. Lu</a>
+		<a href="#" class="link hide">Portfolio</a>
+		<a href="#" class="link hide">Resume</a>
+		<a href="#" class="link hide">Contact</a>
+		<span id="hamburger">≣</span>
+	</div>	
 	<div id="attract">
-		<video muted autoplay="true" loop="true" src="media/vid_oscilloscope.mp4" class="cover"></video>
-		<!-- <img src="img_dive.jpg" class="cover"> -->
+		<!-- <video muted autoplay="true" loop="true" src="media/vid_oscilloscope.mp4" class="cover"></video> -->
+		<img src="media/img_dive.jpg" class="cover">
 	</div>
 	<div class="flex-container">
 		<div class="item">
-			<img src="media/img_dive.jpg">
+			<video controls muted autoplay="true" loop="true" src="media/vid_organ.mp4"></video>
 		</div>
 		<div class="item">
 			<img src="media/img_gentrification.jpg">
@@ -46,15 +38,11 @@
 		<div class="item">
 			<img src="media/img_synths.jpg">
 		</div>
-		<div class="item">
-			<video controls muted autoplay="true" loop="true" src="media/vid_organ.mp4"></video>
-		</div>
 	</div>
 	<footer>
 			<p>This is footer</p>
 	</footer>
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	
 	<script src="js/script.js"></script>
-
 </body>
 </html>
