@@ -7,5 +7,5 @@ $( "#hamburger" ).click(function() {
 // Hide nav links after clicking on them
 $( ".link" ).click(function() {
     console.log("clicked");
-    $(".link").toggleClass("show");
+    $(".link").removeClass("show");
 });

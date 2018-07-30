@@ -100,8 +100,12 @@ footer p {
 		flex-direction: column;
 	}
 
-	.link {
+	.link  {
 		display: none;
+	}
+
+	.name {
+		display: block;
 	}
 
 	#hamburger {
