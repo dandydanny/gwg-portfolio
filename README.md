@@ -1,27 +1,18 @@
 # gwg-portfolio
+![image](https://github.com/dandydanny/gwg-portfolio/blob/master/screenshot.jpg)
 Grow-with-Google Portfolio
 
-
-![image](https://github.com/dandydanny/gwg-portfolio/blob/master/media/favicon.png)
-A handy starting point for Github repo readme's
-
 ### What?
-Portfolio project 1
+A portfolio web page project using mobile-first, responsive principles, and navbar implementation. For the Udacity Grow-with-Google Front-End Nano Degree.
 
 ### Why?
-1. List reasons on
-1. Why this project
-1. Was created
+1. Practice mobile-first design
+1. Practice media queries for responsive layout
+1. Implement CSS / JS navbar
+1. Fulfill project 1 assignment requirements
 
 ### Where?
-[This is a link to some demo](https://chrome.google.com/webstore/detail/dark-new-tab/mnjmegebbljjhpljjfjmkhgmokpmdbpo?hl=en-US&gl=US)
-
-### Requirements
-| Criteria | Meet Specifications | Status |
-| ---: | :--: | :--------- |
-| A1 | 1 | Lorem ipsum |
-| B2 | 20000 | Much table, very cell |
-| FFFFFF | 255 | 255, 255, 255 values in CSS denotes white |
+[Live Demo](https://dandydanny.github.io/gwg-portfolio/)
 
 ### About
 Daniel is a web developer seeking opportunities, beverage socials, and late-night taco runs. [dandydanny.github.io](https://git.io/vxurG)
