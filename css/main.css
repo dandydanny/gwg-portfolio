@@ -72,6 +72,7 @@ footer p {
 }
 
 #navbar {
+	height: 3em;
 	position: fixed;
 	width: 100%;
 	display: flex;
@@ -80,7 +81,7 @@ footer p {
 	background-color: rgba(50,150,200,0.5);
 }
 
-#navbar * {
+#navbar a, span {
 	text-decoration: none;
 	padding: 1em 1.5em;
 	color: white;
@@ -88,6 +89,13 @@ footer p {
 
 #navbar *:hover {
 	background-color: rgba(200,200,255,0.2);
+}
+
+#icon {
+	position: absolute;
+	right: 0;
+	width: 2em;
+	height: 2em;
 }
 
 .name {
