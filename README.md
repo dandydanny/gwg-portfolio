@@ -1,6 +1,7 @@
 # gwg-portfolio
 ![image](https://github.com/dandydanny/gwg-portfolio/blob/master/screenshot.jpg)
-Grow-with-Google Portfolio
+
+Udacity Grow-with-Google Portfolio Project
 
 ### What?
 A portfolio web page project using mobile-first, responsive principles, and navbar implementation. For the Udacity Grow-with-Google Front-End Nano Degree.
